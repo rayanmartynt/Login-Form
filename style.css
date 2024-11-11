@@ -1,0 +1,95 @@
+html{
+    height: 100%;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: cursive;
+    background-image: url(https://img.freepik.com/free-vector/abstract-blue-red-paper-cut-background-with-simple-shapes_8829-2520.jpg?t=st=1731314307~exp=1731317907~hmac=d83fa6140d2e888ff184892ac472fa0d3c29cceecb79038c12ddae125055bd51&w=826);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    padding: 40px;
+    width: 400px;
+    box-sizing: border-box;
+    transform: translate(-50%, -50%);
+    background: transparent;
+    box-shadow: 0 10px 13px;
+    border-radius: 16px;
+}
+
+.container h2{
+    margin: 0 0 30px;
+    padding: 0;
+    color: #ffff;
+    text-align: center;
+}
+
+.container .user-box{
+    position: relative;
+}
+
+.container .user-box input{
+    width: 100%;
+    padding: 10px 0;
+    font-size: 16px;
+    color: #ffff;
+    margin-bottom: 30px;
+    border: none;
+    border-bottom: 1px solid #ffff;
+    outline: none;
+    background: transparent;
+}
+
+.container .user-box label{
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 10px 0;
+    color: #ffff;
+    font-size: 16px;
+    pointer-events: none;
+    transition: .5s;
+}
+
+.container .user-box input:focus~label,
+.container .user-box input:valid~label{
+    top: -20px;
+    left: 0;
+    color: #479E98;
+}
+
+.container .login-button{
+    margin: 0 0 30px;
+    padding: 0;
+    text-align: center;
+    height: 100%;
+}
+
+.container .login-button button{
+    width: 100px;
+    height: 40px;
+    border-radius: 10px;
+    color: #fefefe;
+    font-size: large;
+    background: #a13535;
+    text-transform: uppercase;
+}
+
+.container .login-button button:hover{
+    background: transparent;
+}
+
+.container .login-button .content{
+    color: #ffff;
+}
+
+.container .login-button .content a{
+    color: #fefefe;
+}
