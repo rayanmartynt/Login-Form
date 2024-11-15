@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@200;300;400;500;600;700;800&family=Roboto:wght@100;300;400&display=swap');
+
 html{
     height: 100%;
 }
@@ -6,7 +9,7 @@ body{
     margin: 0;
     padding: 0;
     background: url(https://img.freepik.com/free-vector/abstract-flowing-wavy-lines-vector-illustration_8829-2516.jpg?t=st=1731321697~exp=1731325297~hmac=820393b3ce694e7577062c293a9eb7c67950f1cffc331fcfcde47ca5e7f077f0&w=996);
-    font-family: cursive;
+    font-family: 'Outfit', sans-serif;
     background-repeat: no-repeat;
     background-size: cover;
 }
